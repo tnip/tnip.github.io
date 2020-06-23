@@ -34,6 +34,10 @@ body {
   margin-top: 25px;
 }
 
+.subsubsection {
+  margin-left: 30px;
+}
+
 .subsubsection:not(:first-of-type) {
   margin-top: 10px;
 }
