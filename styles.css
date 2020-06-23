@@ -1,0 +1,46 @@
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  margin-top: 200px;
+  width: 1100px;
+}
+
+.title {
+  border-bottom: 1px solid black;
+}
+
+.section:not(:first-of-type) {
+  margin-top: 35px;
+}
+
+.subsection {
+  margin-left: 30px;
+}
+
+.subsection:not(:first-of-type) {
+  margin-top: 25px;
+}
+
+.subsubsection:not(:first-of-type) {
+  margin-top: 10px;
+}
+
+.section > p,
+.subsection > p,
+.subsubsection > p {
+  margin-left: 20px;
+}
+
